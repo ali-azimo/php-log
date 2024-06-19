@@ -1,0 +1,143 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-continer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0cccc;
+    width: 100%;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 350px;
+    padding: 20px 20px 0px;
+    background-color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #bebebe;
+}
+h1{
+    font-size: 2rem;
+    font-family: cursive;
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input{
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #CCCC;
+    margin-bottom: 15px;
+    padding-left: 16%;
+    cursor: pointer;
+}
+
+input:focus{
+    outline-color: #00c3ff;
+}
+
+.btn-blue{
+    width: 90%;
+    padding: 13px;
+    margin: 15px 20px 15px 7px;
+    cursor: pointer;
+    background-color: #00c3ff;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.btn-blue:hover{
+    background-color: #1e5e70;
+}
+
+.ir{
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .5s ease;
+    font-weight: bold;
+}
+
+.ir:hover{
+    color: #00c3ff;
+    margin-bottom: 10px;
+}
+.link{
+    color: #00c3ff;
+    text-decoration: underline;
+}
+
+.input-icon{
+    width: 45px;
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.input-group{
+    width: 95%;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    height: 20px;
+    width: 5%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+label{
+    display: inline-block;
+    width: 89%;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.erro-geral{
+    background-color: #c70707;
+    padding: 15px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.sucesso{
+    background-color: #0f9c45;
+    padding: 15px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.erro-input{
+    border: 1px solid  #c70707;
+}
+
+.erro{
+    color: #c70707;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
